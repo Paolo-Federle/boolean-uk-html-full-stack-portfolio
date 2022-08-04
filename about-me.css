@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* STRUTTURA */
+
+.middle-block {
+    margin: auto;
+    width: 45%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+}
+
+.center {
+    text-align: center;
+}
+
+/* STILI */
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 30px 30px 30px 0;
+}
+
+li {
+    margin: 5px;
+    list-style-type: none;
+}
